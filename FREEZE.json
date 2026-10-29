@@ -1,0 +1,43 @@
+{
+  "timestamp_utc": "2026-10-29T21:26:39.523512+00:00",
+  "source_commit": "9658c9ba4a3547cad3f30dd6fb76b1f358b0ddea",
+  "held_outcomes_inspected": false,
+  "dependencies": {
+    "PROTOCOL.md": "57793334bcb256501a0284427d7767d9f433348df8430378e9efb43357d421dd",
+    "protocol.json": "3d8388f2fc82ece0fd02c788fcd322b7b60ef22e3c1af6ebaab01901981ce848",
+    "SOURCES.md": "5a90d3611c5b62e9bb0b12d21348821862b13ecc4f3e57bd00090440f1116ee7",
+    "SOURCE_SCHEMA.md": "5f70b80e16de6a1132eef6224b17693d8b8f80ba91e188f2afceb11e71fec538",
+    "SELECTION.json": "829d8eef96d7f11bbc012491254f7b024bfb95d1b0cbec6367b43223a3ad3ce8",
+    "data/README.md": "446cfbb40bf71a0070ded1b86e6946ec89150a4aaef8e460f4e1242296990ab5",
+    "data/source/counts.csv.gz": "58b32e25e94ae888f270d80633450551a773a4e47ed929828c4499e9eaf971f9",
+    "data/source/INDEPENDENT_PARSE.json": "e9e27dcd5225aa9e63c2e8ca1eae0e6919b9fc637cb6e9a62c1d46bf271dabea",
+    "data/source/manifest.json": "862310ecf90e9572b477e6f58c7deca8a807718268d540cd0f43315b4d5cd4c9",
+    "data/source/monthly_controls.csv": "b46ff94e7b7af9f982b8a584e6faf161a714cc463758f5bdc4d158c8304995af",
+    "data/source/station_eligibility.csv": "e817d56ef2bfc33b91fdd9086dffdb2462540868c78ab674b665aee21e47b9e2",
+    "data/source/VERIFICATION.json": "5810f7ad26aae25e94a7c00194c1587e631fe9d29732e6c898b6c1f397ffdffc",
+    "src/geo.py": "5744fea5772d227806d9792c699f5dd5813cdafe5f49a498022a9bf79ceb028d",
+    "src/ingest.py": "dc0e15ea02dbc2c7c3bd329145c2fe0b6c8e0ceae13c387ef2cbaa7aeac75e42",
+    "src/metrics.py": "70ecb0f7314f1a617ee66899030aa73e36410fb56f3a208a82895ed0def18d26",
+    "src/model.py": "67e981d811771dd9bc39520f900679194cd43193b96b6054340e475781a62234",
+    "src/run_analysis.py": "ede5cb0bc8bbcd6357c95504cf531478a8ed9644e6e7c7ca3787c367ef0f441a",
+    "src/verify_freeze.py": "f01013d6ae0d01a839fc3fd779964e9cfa311626416dd8248aa6fa9c4c337d58",
+    "src/verify_originals.py": "a4c7cc780362672f85bc2c96bf84c511638b6845494c2b8e8b1cf92f32fe97c4",
+    "src/verify_results.py": "5f019981a9746c77222fe76276942095cae7e806094d163bbe73273dee263745",
+    "src/verify_source.py": "e1d78fa1eebc66f22558e49cc3fa966805582ad3c0eb3cde613a6ed7cae8d8af",
+    "tests/test_transfer.py": "0c3d34b57e7290a8adeaa0b3f493f47d9614e639489d269cddf4a3b61f057ace",
+    "results/validation-metrics.csv": "2ff6b936da1a75b23b2def010d6fa7f4afde659d51cb19931d4cde90b6805e01",
+    "results/validation-VERIFICATION.json": "a55d3800205634dac4b4dcbefd125a8aa34d057c62c82a0991fc7a7ae985607d"
+  },
+  "selection": "All54 geographic candidates and fixed pooled baseline validated; geographic selection frozen before held analytical summaries. Source input and quality visible without blinding. Simulated group holdout, not actual new-site or historical-vintage verification.",
+  "validation": {
+    "status": "PASS",
+    "phase": "validation",
+    "exact_scalar_checks": 1142773,
+    "numeric_tolerance_checks": 353232,
+    "prediction_rows": 110110,
+    "feature_rows": 26754,
+    "weight_rows": 8206,
+    "metric_rows": 2640,
+    "scope": "Independent SQL histories, unit-vector angular distances/displacements and exact fractional losses from exported decimals. Neighbor ranks checked within fixed1e-8km distance precision; actual publication availability and physical sites remain unverified."
+  }
+}
