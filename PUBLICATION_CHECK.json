@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-29T21:13:53.847948+00:00",
+  "timestamp_utc": "2026-10-29T21:19:25.479386+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 8,
+  "files_checked": 18,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -11,7 +11,17 @@
     "SOURCES.md": "5a90d3611c5b62e9bb0b12d21348821862b13ecc4f3e57bd00090440f1116ee7",
     "SOURCE_SCHEMA.md": "5f70b80e16de6a1132eef6224b17693d8b8f80ba91e188f2afceb11e71fec538",
     "data/README.md": "446cfbb40bf71a0070ded1b86e6946ec89150a4aaef8e460f4e1242296990ab5",
-    "protocol.json": "6d8db35bacff027606cd0aba3cf84c8d1a189bedf72e8c97a91df54c90bf4a01"
+    "data/source/INDEPENDENT_PARSE.json": "e9e27dcd5225aa9e63c2e8ca1eae0e6919b9fc637cb6e9a62c1d46bf271dabea",
+    "data/source/VERIFICATION.json": "5810f7ad26aae25e94a7c00194c1587e631fe9d29732e6c898b6c1f397ffdffc",
+    "data/source/counts.csv.gz": "58b32e25e94ae888f270d80633450551a773a4e47ed929828c4499e9eaf971f9",
+    "data/source/manifest.json": "862310ecf90e9572b477e6f58c7deca8a807718268d540cd0f43315b4d5cd4c9",
+    "data/source/monthly_controls.csv": "b46ff94e7b7af9f982b8a584e6faf161a714cc463758f5bdc4d158c8304995af",
+    "data/source/station_eligibility.csv": "e817d56ef2bfc33b91fdd9086dffdb2462540868c78ab674b665aee21e47b9e2",
+    "protocol.json": "6d8db35bacff027606cd0aba3cf84c8d1a189bedf72e8c97a91df54c90bf4a01",
+    "src/geo.py": "494f56d10344a8949a3b091873fe122c3d84e779bf218256f3e1a824a42b1eee",
+    "src/ingest.py": "caae842598fa0f6f6d777a233ce5b04868c612953544f32d9475615d4e67bc9f",
+    "src/verify_originals.py": "af636487aba1a34994fcd29af1f25eddb4d94c65414b79d825eed1015424a0f2",
+    "src/verify_source.py": "3fd253d6f6de4e045883224f20f6dce18258ad94666902ac9d69ecbeadfd13bf"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,
