@@ -1,0 +1,138 @@
+{
+  "phase": "held",
+  "shared_feature_preparation_seconds": 0.1443052999675274,
+  "elapsed_seconds": 3.0993093999568373,
+  "policies": [
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13144879997707903,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b000",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.12994799995794892,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b045",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13027960003819317,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b090",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13062630000058562,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b135",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13191610004287213,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b180",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.1310823999810964,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b225",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.1299091000109911,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b270",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.1308069999795407,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift100m-b315",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13013669999781996,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b000",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13169099995866418,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b045",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13078920007683337,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b090",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.12921019992791116,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b135",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.1293117000022903,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b180",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.12967060005757958,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b225",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13057499995920807,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b270",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13133739994373173,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "shift500m-b315",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.13089829997625202,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "pooled_weekday_w84",
+      "scenario": "unshifted",
+      "prediction_rows": 2208,
+      "elapsed_seconds": 0.3353905000258237,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    }
+  ],
+  "prediction_rows": 39744,
+  "feature_rows": 18032,
+  "weight_rows": 1608,
+  "metric_rows": 558,
+  "availability": "Strictly past donor indices under idealized complete prior-day counts; actual source publication vintages and live feasibility unverified."
+}
