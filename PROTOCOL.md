@@ -38,7 +38,7 @@ Report MAE, MSE and RMSE in departures/day, per-ID and per-coordinate-group resu
 
 For the frozen selected configuration retain unshifted primary coordinates and all 16 synthetic metadata displacements: 100m or500m along bearings0,45,...315 degrees, with count labels unchanged. These stress metadata sensitivity, not observed relocation outcomes. No geometry stress is used to select parameters or discard a station.
 
-Resample held coordinate groups with replacement 1000 times using seed 20261029. Retain every sampled index and independently reconstruct selected-minus-baseline equal-group MAE. A central 95% empirical percentile range is conditional resampling sensitivity, not proof of independent spatial sampling or future coverage; dependence between groups and small group counts remain limitations.
+For the unshifted primary comparison, resample held coordinate groups with replacement 1000 times using seed 20261029. Retain every sampled index and independently reconstruct selected-minus-baseline equal-group MAE. A central 95% empirical percentile range is conditional resampling sensitivity, not proof of independent spatial sampling or future coverage; dependence between groups and small group counts remain limitations.
 
 Independent verification must not import model or metric helpers. Use a separate great-circle formulation, SQL histories and integer/rational mean reconstruction, explicit numerical tolerances (prediction/metric absolute 1e−8 for predictions and 1e−7 for metrics, distance absolute 1e−8 km), complete exclusions and deterministic isolated replay. Preserve failed receipts and corrected retrospective labels if any defect is discovered after held inspection.
 

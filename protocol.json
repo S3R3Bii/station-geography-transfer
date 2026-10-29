@@ -199,7 +199,8 @@
     "replicates": 1000,
     "unit": "held coordinate group",
     "metric": "equal-group selected-minus-baseline MAE",
-    "interval": "central95% empirical percentile resampling range; conditional finite-group sensitivity, not guaranteed future coverage"
+    "interval": "central95% empirical percentile resampling range; conditional finite-group sensitivity, not guaranteed future coverage",
+    "scenario": "unshifted primary only"
   },
   "availability": "Idealized complete prior-day published counts and known initial geometry only. Source files are posted later; actual historical information vintages and prospective feasibility are not verified.",
   "floating_tolerances": {
