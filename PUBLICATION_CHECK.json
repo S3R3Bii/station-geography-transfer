@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-29T21:11:56.313188+00:00",
+  "status": "PASS_BOUNDED_SCAN",
+  "files_checked": 5,
+  "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
+  "findings": [],
+  "sha256": {
+    ".gitignore": "045343b3ab8a04073b35c459128e2fa517085c8c1f8765bdf2c0451b42ecfa16",
+    "PROTOCOL.md": "27e924e3a5daf78ffdf62f2526198f4047333941d6b7864b1567f8d247a71582",
+    "README.md": "ced115463e45c32b69b164e8033b71e81b4ea9d2c67f3a737f448ee26340e5d9",
+    "SOURCES.md": "5a90d3611c5b62e9bb0b12d21348821862b13ecc4f3e57bd00090440f1116ee7",
+    "protocol.json": "dd907f409840b7e9d7a6ba1a9deaf8da6cf50161839abec9c2cec9348c21a41a"
+  },
+  "raw_source_members_excluded": true,
+  "unapproved_manuscripts_excluded": true,
+  "approved_independent_paper_files": []
+}

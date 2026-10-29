@@ -1,0 +1,212 @@
+{
+  "study": "06",
+  "version": 1,
+  "source": {
+    "publisher_landing": "https://citibikenyc.com/system-data",
+    "policy": "https://citibikenyc.com/data-sharing-policy",
+    "archive_base": "https://s3.amazonaws.com/tripdata/",
+    "object_listing_sha256": "cf811f430d000667264e022cf3140df21a6446fa78573957cb8586e559fe0ac7",
+    "objects": [
+      {
+        "key": "JC-202401-citibike-tripdata.csv.zip",
+        "size": 1883296,
+        "modified": "2024-02-05T15:27:57.000Z",
+        "etag": "\"ce5585eadab5e9632ef69d9d1649ea1e\""
+      },
+      {
+        "key": "JC-202402-citibike-tripdata.csv.zip",
+        "size": 1908683,
+        "modified": "2024-03-04T16:10:13.000Z",
+        "etag": "\"75008b6faec8fb9de510ae007d07467d\""
+      },
+      {
+        "key": "JC-202403-citibike-tripdata.csv.zip",
+        "size": 2308314,
+        "modified": "2024-04-01T18:43:36.000Z",
+        "etag": "\"853a02052ff4fef76e1a9147f9b2e743\""
+      },
+      {
+        "key": "JC-202404-citibike-tripdata.csv.zip",
+        "size": 2810050,
+        "modified": "2024-05-06T20:40:54.000Z",
+        "etag": "\"065526d1cd261e890734495da0da6dea\""
+      },
+      {
+        "key": "JC-202405-citibike-tripdata.csv.zip",
+        "size": 3238096,
+        "modified": "2024-06-26T17:38:43.000Z",
+        "etag": "\"f667024b53033c510fb7cd7d4d91f2c5\""
+      },
+      {
+        "key": "JC-202406-citibike-tripdata.csv.zip",
+        "size": 4413867,
+        "modified": "2024-07-08T18:18:21.000Z",
+        "etag": "\"2d719fe85e9ddfaaad85d9d5ed84d2fa\""
+      },
+      {
+        "key": "JC-202407-citibike-tripdata.csv.zip",
+        "size": 4198201,
+        "modified": "2024-08-08T15:40:05.000Z",
+        "etag": "\"a7238085605ab1983a7d7b34a88d4cfc\""
+      },
+      {
+        "key": "JC-202408-citibike-tripdata.csv.zip",
+        "size": 3530848,
+        "modified": "2024-09-05T00:48:02.000Z",
+        "etag": "\"c7278f83fe588737bf692dad566cfc7f\""
+      },
+      {
+        "key": "JC-202409-citibike-tripdata.csv.zip",
+        "size": 4140046,
+        "modified": "2024-10-08T00:36:38.000Z",
+        "etag": "\"f69acbe890d87d3f2318ec896c9b72ac\""
+      },
+      {
+        "key": "JC-202410-citibike-tripdata.csv.zip",
+        "size": 4028203,
+        "modified": "2024-11-04T19:48:14.000Z",
+        "etag": "\"3bddc389be440bba6955a0fd87c0ee47\""
+      },
+      {
+        "key": "JC-202411-citibike-tripdata.csv.zip",
+        "size": 2801836,
+        "modified": "2024-12-04T16:45:29.000Z",
+        "etag": "\"3adc62030c7e115bdd31d25734df810c\""
+      },
+      {
+        "key": "JC-202412-citibike-tripdata.csv.zip",
+        "size": 2012198,
+        "modified": "2025-01-06T20:42:14.000Z",
+        "etag": "\"8b80b15b97e049a0ab3b302973eb488e\""
+      }
+    ],
+    "year": 2024,
+    "columns": [
+      "started_at",
+      "start_station_id",
+      "start_lat",
+      "start_lng"
+    ],
+    "raw_archives_public": false
+  },
+  "target": "Published departure-record count per station/civil calendar day, not deduplicated unique rides, latent demand, bike stock or dock availability",
+  "initial_geometry": {
+    "start": "2024-01-01",
+    "end_exclusive": "2024-04-01",
+    "valid_latitude": [
+      40,
+      41
+    ],
+    "valid_longitude": [
+      -75,
+      -73
+    ],
+    "minimum_valid_fraction": "0.95",
+    "require_positive_each_month": [
+      1,
+      2,
+      3
+    ],
+    "median_coordinate_decimals": 4,
+    "radius_quantile": "0.95",
+    "maximum_radius_km": "0.150",
+    "rationale": "Preset regional/dispersion quality screens for recorded coordinates; untuned and not verified physical-station lineage",
+    "radius_reference": "Unrounded componentwise coordinate medians; grouping/model use four-decimal medians."
+  },
+  "coordinate_group_radius_km": "0.100",
+  "grouping": "Connected components of first-quarter station medians within100m; sorted smallestID is component key. A proxy for related nearby IDs, not verified physical sites.",
+  "fold_rule": {
+    "hash": "SHA-256",
+    "salt": "study06-v1|",
+    "key": "smallest station ID in connected coordinate group",
+    "digest_bytes": 8,
+    "byte_order": "big",
+    "modulo": 5
+  },
+  "donor_folds": [
+    0,
+    1,
+    2
+  ],
+  "validation_fold": 3,
+  "held_fold": 4,
+  "minimum_donors": 10,
+  "minimum_validation_groups": 2,
+  "minimum_held_groups": 2,
+  "validation": {
+    "start": "2024-04-01",
+    "end_exclusive": "2024-07-01"
+  },
+  "held": {
+    "start": "2024-07-01",
+    "end_exclusive": "2025-01-01"
+  },
+  "windows_days": [
+    28,
+    56,
+    84
+  ],
+  "calendar_groups": [
+    "weekday",
+    "daytype"
+  ],
+  "neighbors": [
+    3,
+    5,
+    10
+  ],
+  "distance_exponents": [
+    0,
+    1,
+    2
+  ],
+  "distance_floor_km": "0.100",
+  "earth_radius_km": "6371",
+  "minimum_history_days": 3,
+  "predictor": "At each target date use only donor dates in[t-W,t), matching weekday or weekday/weekend. Compute each donor mean; take k closest fixed-geometry donors and normalized inverse-distance-power weighted mean. Donor IDs break distance ties.",
+  "baseline": {
+    "name": "pooled_weekday_w84",
+    "window_days": 84,
+    "calendar": "weekday",
+    "predictor": "Equal mean of all eligible donor means"
+  },
+  "selection": {
+    "candidates": 54,
+    "objective": "Equal-coordinate-group MAE over all validation stations/days",
+    "ties": "Smaller k, lower exponent, shorter window, weekday before daytype; exact ties only",
+    "scope": "No target-station count history used; no held fold counts used for fitting/selection. First-quarter geometry/cohort construction uses source coordinates and activity eligibility; simulated cold start only."
+  },
+  "held_geometry_stress": {
+    "distances_km": [
+      "0.100",
+      "0.500"
+    ],
+    "bearings_degrees": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ],
+    "unshifted_primary": true,
+    "meaning": "Synthetic metadata displacement with unchanged count labels, not measured physical relocation"
+  },
+  "bootstrap": {
+    "seed": 20261029,
+    "replicates": 1000,
+    "unit": "held coordinate group",
+    "metric": "equal-group selected-minus-baseline MAE",
+    "interval": "central95% empirical percentile resampling range; conditional finite-group sensitivity, not guaranteed future coverage"
+  },
+  "availability": "Idealized complete prior-day published counts and known initial geometry only. Source files are posted later; actual historical information vintages and prospective feasibility are not verified.",
+  "floating_tolerances": {
+    "prediction_absolute": "1e-8",
+    "metric_absolute": "1e-7",
+    "distance_km_absolute": "1e-8",
+    "meaning": "Fixed numerical reconstruction tolerances, not source accuracy or physical-distance bounds."
+  },
+  "public_scope": "Noncommercial independent study with minimal coarse derived counts/rounded station geometry and original code/results/figures; no raw ride files, ride/customer/bike IDs, rider type, demographics, exact trip timestamps, trajectories, full manuals or logos"
+}

@@ -1,0 +1,7 @@
+# Source and method grounding
+
+- Official system-data page and archive link: https://citibikenyc.com/system-data and https://s3.amazonaws.com/tripdata/index.html . Fixed JC-2024 object names, sizes and last-modification metadata captured before trip values.
+- Source policy: https://citibikenyc.com/data-sharing-policy . Scope is a noncommercial independent analysis with minimal source-derived material in the study, not standalone redistribution, customer linkage, unauthorized website extraction or an endorsed product. Raw files stay private; the source is not public domain.
+- Liu and Pelechrinis (2021), Excess demand prediction for bike sharing systems: https://doi.org/10.1371/journal.pone.0252894 . Prior research distinguishes recorded trips from excess/latent demand and uses availability information. This study does not reproduce that work or infer occupancy from trip counts.
+- Neighbor regression and inverse-distance averaging are established methods. Exact formulas, finite exploratory settings, validation-only choice and limitations are in the protocol. No novel algorithm, exhaustive literature gap or actual relocation claim.
+\nOfficial methodological reference: https://scikit-learn.org/stable/modules/neighbors.html#nearest-neighbors-regression . Documents neighbor-mean and inverse-distance regression as established methods. This study implements its stated rolling-donor formula directly and does not imply that scikit-learn or a trained embedding model was executed.\n
