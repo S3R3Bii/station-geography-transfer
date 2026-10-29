@@ -1,0 +1,26 @@
+{
+  "selected": {
+    "policy": "geo-w56-daytype-k5-p1",
+    "window": 56,
+    "calendar": "daytype",
+    "k": 5,
+    "power": 1
+  },
+  "objective": "Equal-coordinate-group validation MAE of round-trip decimal predictions",
+  "objective_exact": "200156338970998129119/10010000000000000000",
+  "baseline": {
+    "policy": "pooled_weekday_w84",
+    "window": 84,
+    "calendar": "weekday",
+    "k": 0,
+    "power": 0
+  },
+  "baseline_mae_exact": "4630094897959183677/200200000000000000",
+  "attempted_geographic_configurations": 54,
+  "selection_period": {
+    "start": "2024-04-01",
+    "end_exclusive": "2024-07-01"
+  },
+  "held_outcomes_inspected": false,
+  "source_inputs_visible_without_blinding": true
+}

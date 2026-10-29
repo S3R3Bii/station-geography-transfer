@@ -1,0 +1,12 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "authority": "Reviewed independent GitHub study authorized; formal-publication projects including Azure remain private.",
+  "public_files": {
+    "paper/main.tex": "2a081edf7204fb85ae9b980eeee402e4e061ad47b8a5c9d8f08b1ba0fc1f2cc9",
+    "paper/manuscript.pdf": "041f5a5fcec3fe06e36462d78b516b947a58c895bee6066884a196da2258c61a",
+    "paper/images/coordinate_groups.pdf": "ae4e1572a8fc36b46c48cf1031620bf73d2df1efef23ba72c4534518bcaf36f6",
+    "paper/images/geography_sensitivity.pdf": "818b0a0d3e2bdd728722f8e13f9042470000cdfd57b92afdd16aecc0cf507db7",
+    "paper/images/held_group_errors.pdf": "f8da9f00078502c733fdc452b364156b4d5392137c5b511f1d6170daefe18943"
+  }
+}

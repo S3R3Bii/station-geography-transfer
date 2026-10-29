@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "phase": "validation",
+  "exact_scalar_checks": 1142773,
+  "numeric_tolerance_checks": 353232,
+  "prediction_rows": 110110,
+  "feature_rows": 26754,
+  "weight_rows": 8206,
+  "metric_rows": 2640,
+  "scope": "Independent SQL histories, unit-vector angular distances/displacements and exact fractional losses from exported decimals. Neighbor ranks checked within fixed1e-8km distance precision; actual publication availability and physical sites remain unverified."
+}

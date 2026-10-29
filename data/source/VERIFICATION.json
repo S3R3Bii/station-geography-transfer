@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "grid_and_control_checks": 91490,
+  "source_rows": 1052451,
+  "selected_stations": 83,
+  "grid_rows": 30378,
+  "coordinate_groups_by_fold": {
+    "0": 24,
+    "1": 12,
+    "2": 12,
+    "3": 22,
+    "4": 12
+  },
+  "source_truth": "Captured published-record consistency and proxy coordinate groups only; no physical lineage, stock/demand, historical-vintage or prospective-availability clearance."
+}

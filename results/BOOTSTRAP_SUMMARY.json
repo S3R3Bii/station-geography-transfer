@@ -1,0 +1,10 @@
+{
+  "seed": 20261029,
+  "replicates": 1000,
+  "coordinate_groups": 12,
+  "scenario": "unshifted",
+  "lower_exact": "-7535775277438814747/480000000000000000",
+  "upper_exact": "-4634641251600218713/1104000000000000000",
+  "quantile": "Nearest-rank empirical2.5th/97.5th percentiles, no interpolation",
+  "meaning": "Conditional finite-coordinate-group resampling sensitivity, not guaranteed future coverage or independent spatial sampling."
+}

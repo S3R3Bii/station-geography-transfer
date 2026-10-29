@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "source_rows": 1052451,
+  "selected_field_scalars_matched_by_canonical_parser_hash": 4209804,
+  "projection_and_geometry_exact_checks": 92152,
+  "coordinate_radius_tolerance_checks": 99,
+  "selected_stations": 83,
+  "grid_rows": 30378,
+  "members": [
+    {
+      "archive": "JC-202401-citibike-tripdata.csv.zip",
+      "member": "JC-202401-citibike-tripdata.csv",
+      "sha256": "1b247ff621cc867025fc0a3d0997b10db9c3500ecc6b395ff286c6b034e1bb37",
+      "canonical_selected_field_rows_sha256": "4337535cdf74c966a6995a3ceb491a8a9be3ed1183f45b4bcd315b383f9d90e5",
+      "rows": 50661
+    },
+    {
+      "archive": "JC-202402-citibike-tripdata.csv.zip",
+      "member": "JC-202402-citibike-tripdata.csv",
+      "sha256": "891c9bd47a3bae0164263f029857b737dbc610b4190ad9d20d0183f2a177b71f",
+      "canonical_selected_field_rows_sha256": "2298a8ada1f135575377f0a6f4fe46311abd9b622ecf2881b3068cd6ffdc07e3",
+      "rows": 55613
+    },
+    {
+      "archive": "JC-202403-citibike-tripdata.csv.zip",
+      "member": "JC-202403-citibike-tripdata.csv",
+      "sha256": "212e3df4d753212998d4be3b7b3886c11350d39637ee45ea2ab2b4cfbe279d56",
+      "canonical_selected_field_rows_sha256": "1bb6c6b17523c4ce642b07aad1f34dcfb4e9a720ad625630f5af449d3303f053",
+      "rows": 65581
+    },
+    {
+      "archive": "JC-202404-citibike-tripdata.csv.zip",
+      "member": "JC-202404-citibike-tripdata.csv",
+      "sha256": "58e25d24d40ebabaf7424ab9c8a06fa516c28932608850d46972e758c666614c",
+      "canonical_selected_field_rows_sha256": "c43d868ce6d6906aece9244cf2228ad4ed0e6b56e376dac3cb4e2315fe1f7575",
+      "rows": 79116
+    },
+    {
+      "archive": "JC-202405-citibike-tripdata.csv.zip",
+      "member": "JC-202405-citibike-tripdata.csv",
+      "sha256": "8c94e4b8f24d4121cc2465be99ff5f50cb895f77a56645e51090d71e29d554e4",
+      "canonical_selected_field_rows_sha256": "ff9590cec4a03484414c44526d6f1bbc094e061a16758ed4bc590287e086cb72",
+      "rows": 97479
+    },
+    {
+      "archive": "JC-202406-citibike-tripdata.csv.zip",
+      "member": "JC-202406-citibike-tripdata.csv",
+      "sha256": "72106bce10a0a0f78098b7205dd2e0b710b717fc4a2761f8ef8b952595914cd3",
+      "canonical_selected_field_rows_sha256": "1f848caa0dad1047129a2374997cb5da202e723b5cbfa327e190b2118685f4eb",
+      "rows": 111115
+    },
+    {
+      "archive": "JC-202407-citibike-tripdata.csv.zip",
+      "member": "JC-202407-citibike-tripdata.csv",
+      "sha256": "8f04dbbc950f9b24c0a48cf6b72818a5b74b99c8bf2a7e3b2ccadf5acd53d892",
+      "canonical_selected_field_rows_sha256": "f73ba975e459ef9801e6449698d8bd9c2f9ec3d9cb15ca6fe273263c1a8421b6",
+      "rows": 112443
+    },
+    {
+      "archive": "JC-202408-citibike-tripdata.csv.zip",
+      "member": "JC-202408-citibike-tripdata.csv",
+      "sha256": "e8b99c97d8713934dd4c64d8eada88941c1880f08b7cf7085504ed50470de16f",
+      "canonical_selected_field_rows_sha256": "cb93a9ad2ad3d90f6552b29b4464a87b15f4c87e3bc1ce5e94349b73a2c89abf",
+      "rows": 106451
+    },
+    {
+      "archive": "JC-202409-citibike-tripdata.csv.zip",
+      "member": "JC-202409-citibike-tripdata.csv",
+      "sha256": "491ac433ec02bfa8e9c456075532b3b44aaa02f3b8503bb59e2b3bdd99db2a81",
+      "canonical_selected_field_rows_sha256": "ebd0d3f83dbcebbcc701052b59a52d0015735166882e07edec165a7543e00a07",
+      "rows": 115558
+    },
+    {
+      "archive": "JC-202410-citibike-tripdata.csv.zip",
+      "member": "JC-202410-citibike-tripdata.csv",
+      "sha256": "0a5ef8f2b1dab18758a6b8936e10851ff309e595a74c505df02168dd5c38dbda",
+      "canonical_selected_field_rows_sha256": "5228125d1dd03ad71b8cf96ca382bdaf79195ac0923716497090b775aae61e5e",
+      "rows": 118307
+    },
+    {
+      "archive": "JC-202411-citibike-tripdata.csv.zip",
+      "member": "JC-202411-citibike-tripdata.csv",
+      "sha256": "c12493631ce8a0cd67522723c592fd615fa1e8da1fb403e0f2cc24ee647a374a",
+      "canonical_selected_field_rows_sha256": "6b69e620b8b5ba77f4271deb5e7a0f0aae6e36fcc25811d089169f54900d7b95",
+      "rows": 85294
+    },
+    {
+      "archive": "JC-202412-citibike-tripdata.csv.zip",
+      "member": "JC-202412-citibike-tripdata.csv",
+      "sha256": "03df7a23d26d7d787de651a5ed23d0216f80a13dd42a10e8b970cea386e2dbb8",
+      "canonical_selected_field_rows_sha256": "10ee573312aefeed31cd61f0d0ca46c9f94ce311c65824394cc9f4b938245024",
+      "rows": 54833
+    }
+  ],
+  "projection_hashes": {
+    "counts.csv.gz": "58b32e25e94ae888f270d80633450551a773a4e47ed929828c4499e9eaf971f9",
+    "station_eligibility.csv": "e817d56ef2bfc33b91fdd9086dffdb2462540868c78ab674b665aee21e47b9e2",
+    "monthly_controls.csv": "b46ff94e7b7af9f982b8a584e6faf161a714cc463758f5bdc4d158c8304995af"
+  },
+  "scope": "Independent pandas C-parser versus standard CSV selected-field hashes; independent list medians, unit-vector angular radii, graph components and count controls. Source truth, physical lineage, occupancy and historical availability not established."
+}
