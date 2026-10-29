@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "actual_artist_values": 278,
+  "map_labels": 12,
+  "heatmap_annotation_and_contrast_checks": 16,
+  "minimum_annotation_contrast": 4.702129359739946,
+  "export_hashes": 9
+}

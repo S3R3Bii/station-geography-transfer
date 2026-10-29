@@ -1,0 +1,155 @@
+{
+  "timestamp_utc": "2026-10-29T21:49:47.725983+00:00",
+  "version": "Canonical current-file hashes; candidate remote revision pending",
+  "file_sha256": {
+    ".gitattributes": "c10a433781311d21f680039ce94e72090621c1bfa73fbbc717b259cabdea3e46",
+    ".gitignore": "045343b3ab8a04073b35c459128e2fa517085c8c1f8765bdf2c0451b42ecfa16",
+    "DECISION_SUMMARY.md": "0b0d1fd82fbb5985a7bb7667fcc3bfa357a98b167bc3c79e5fe14b33e99bda2c",
+    "FREEZE.json": "b53fd815be6141dd451612e561174ffab3971f2be662dc49fdbd6caa4c917590",
+    "protocol.json": "3d8388f2fc82ece0fd02c788fcd322b7b60ef22e3c1af6ebaab01901981ce848",
+    "PROTOCOL.md": "57793334bcb256501a0284427d7767d9f433348df8430378e9efb43357d421dd",
+    "README.md": "ee728ab6fe05e5448f98d574174792da6b3fddbfa1b3c94092288dfcfe2016d3",
+    "REPRODUCTION_CHECK.json": "f2591504bd65c68a20de6269ec036ffed9fa01d21a9b4ceeaca8e32da2492f3c",
+    "requirements.txt": "ef41a961f1e611901e31f0e4bb1303336ef73af4e1f08a93a74895407dee3f32",
+    "SELECTION.json": "829d8eef96d7f11bbc012491254f7b024bfb95d1b0cbec6367b43223a3ad3ce8",
+    "SOURCES.md": "5a90d3611c5b62e9bb0b12d21348821862b13ecc4f3e57bd00090440f1116ee7",
+    "SOURCE_SCHEMA.md": "5f70b80e16de6a1132eef6224b17693d8b8f80ba91e188f2afceb11e71fec538",
+    ".github/workflows/verify.yml": "72c2a60811fca8abbbff81046783d388f56982f4d8469f803adcdef86dd396a6",
+    "data/README.md": "446cfbb40bf71a0070ded1b86e6946ec89150a4aaef8e460f4e1242296990ab5",
+    "data/source/counts.csv.gz": "58b32e25e94ae888f270d80633450551a773a4e47ed929828c4499e9eaf971f9",
+    "data/source/INDEPENDENT_PARSE.json": "e9e27dcd5225aa9e63c2e8ca1eae0e6919b9fc637cb6e9a62c1d46bf271dabea",
+    "data/source/manifest.json": "862310ecf90e9572b477e6f58c7deca8a807718268d540cd0f43315b4d5cd4c9",
+    "data/source/monthly_controls.csv": "b46ff94e7b7af9f982b8a584e6faf161a714cc463758f5bdc4d158c8304995af",
+    "data/source/station_eligibility.csv": "e817d56ef2bfc33b91fdd9086dffdb2462540868c78ab674b665aee21e47b9e2",
+    "data/source/VERIFICATION.json": "5810f7ad26aae25e94a7c00194c1587e631fe9d29732e6c898b6c1f397ffdffc",
+    "figures/ARTIST_VALUES.json": "3a90d8958ac9c4c9f4884c1cd8de2e8d79c3f6a4d938ad49ff15d614b7b0b59c",
+    "figures/coordinate_groups.pdf": "ae4e1572a8fc36b46c48cf1031620bf73d2df1efef23ba72c4534518bcaf36f6",
+    "figures/coordinate_groups.png": "2b412b88e223a00c5a7c64d49c6963902d9ebb4b3248a8747515fd003dd11baa",
+    "figures/coordinate_groups.svg": "2ff4a01931c9ba876b90c72efd45df8331f251831d6d9ab8c928e9fa1f63302a",
+    "figures/geography_sensitivity.pdf": "818b0a0d3e2bdd728722f8e13f9042470000cdfd57b92afdd16aecc0cf507db7",
+    "figures/geography_sensitivity.png": "42cb74d11a794db00df9f6217bfdbfa02c4aca0f5de0891380c39f2a6a75b5a6",
+    "figures/geography_sensitivity.svg": "79a53da3b7ef9198e029829b5f91287466366de6ac2b66332ac29c886bab44d8",
+    "figures/held_group_errors.pdf": "f8da9f00078502c733fdc452b364156b4d5392137c5b511f1d6170daefe18943",
+    "figures/held_group_errors.png": "2b5c167edbfd0d29a16d1fa9529289d32db5a37da3dd488673fae564eb324fb2",
+    "figures/held_group_errors.svg": "82bcb0f0a1c5c1e845dbb4e65920bd8642656d4e2c7074548849c944a2fb531b",
+    "figures/MANIFEST.json": "c0a89def6564abf53db19d41576ef5d41a411ff13c1f4fa8b67adf7ce984d21b",
+    "figures/VERIFICATION.json": "e920948eba1a1b6c7acfa9a5c3daf498117c8c167e90f5874022940936e470b0",
+    "paper/main.tex": "2a081edf7204fb85ae9b980eeee402e4e061ad47b8a5c9d8f08b1ba0fc1f2cc9",
+    "paper/manuscript.pdf": "041f5a5fcec3fe06e36462d78b516b947a58c895bee6066884a196da2258c61a",
+    "paper/PUBLICATION_SCOPE.json": "2901b244c7f8b6ed3e284771b148fb83e9ac26f3fe4ab5d52240fc0ef762a264",
+    "paper/VERIFICATION.json": "0124a25fa6e82c0391b64d601aa30f1cea976cd09fb630b6f3539789ca140f31",
+    "paper/images/coordinate_groups.pdf": "ae4e1572a8fc36b46c48cf1031620bf73d2df1efef23ba72c4534518bcaf36f6",
+    "paper/images/geography_sensitivity.pdf": "818b0a0d3e2bdd728722f8e13f9042470000cdfd57b92afdd16aecc0cf507db7",
+    "paper/images/held_group_errors.pdf": "f8da9f00078502c733fdc452b364156b4d5392137c5b511f1d6170daefe18943",
+    "results/BOOTSTRAP_SUMMARY.json": "3827cc2860634dabdb462afe57b965746dbab7d1492e59654355667394799d8c",
+    "results/held-bootstrap-indices.csv": "9f8a529d24845786d6d2643f2cf2c0f59808ebd4bacfd982a645f288d3d9a7e6",
+    "results/held-bootstrap.csv": "c3fbf5af34a4c7b1926d5f5108af88c428cb9291e79b8c5d193c68527fc506a0",
+    "results/held-execution.json": "93e9db5638ca5ed5ec627e7608bd5db31049d9560322aee80850c3a48a0f3c3e",
+    "results/held-features.csv.gz": "efb18fff6b72bb5ed2724ff5a2777cf247dd4b1bff5bad484fb9d3c752a7c728",
+    "results/held-metrics.csv": "b352f6771e86b070cdbb2bf6cc5adf2e0a6fef5f0dc55d60dbeba63a8498731e",
+    "results/held-predictions.csv.gz": "27f7b773a4fa1029aab5ecadcac5ed600f2995ae504ed9d649340a75b2068ffd",
+    "results/held-VERIFICATION.json": "77d8205dacf9a1f8c63a9f11a06c0273c33db345e02d03a5a30668068b0f3ccc",
+    "results/held-weights.csv.gz": "4744b0ea47dfeaf913a6b0fd36c199bc2682aa8e7b5c46055c7484398f9bff57",
+    "results/validation-execution.json": "34243336814b18fd8865893d48602434e04cc2526ecad863f2bb066a9884e5cf",
+    "results/validation-features.csv.gz": "6500c94675cc5c6782f79104c33d6c8444899fdda5c36fff8deede178200efc0",
+    "results/validation-metrics.csv": "2ff6b936da1a75b23b2def010d6fa7f4afde659d51cb19931d4cde90b6805e01",
+    "results/validation-predictions.csv.gz": "b9bbcc658be30fefdae2dc9a88de4016d0a1b2f02770a9f886789ac99f588374",
+    "results/validation-VERIFICATION.json": "a55d3800205634dac4b4dcbefd125a8aa34d057c62c82a0991fc7a7ae985607d",
+    "results/validation-weights.csv.gz": "2bbf9ed776686be120f5fecf0c78b91eaf023f7da0a86b714201388391f59981",
+    "src/check_reproduction.py": "7c508a70d68cfb52a43780165018aa5a250535d74d5df2258e73a43e99c709ee",
+    "src/geo.py": "5744fea5772d227806d9792c699f5dd5813cdafe5f49a498022a9bf79ceb028d",
+    "src/ingest.py": "dc0e15ea02dbc2c7c3bd329145c2fe0b6c8e0ceae13c387ef2cbaa7aeac75e42",
+    "src/make_figures.py": "6edafb3a631e8f01628dfa552dd693a9fa04d236c44136f8a871d7b268b75a27",
+    "src/metrics.py": "70ecb0f7314f1a617ee66899030aa73e36410fb56f3a208a82895ed0def18d26",
+    "src/model.py": "67e981d811771dd9bc39520f900679194cd43193b96b6054340e475781a62234",
+    "src/run_analysis.py": "ede5cb0bc8bbcd6357c95504cf531478a8ed9644e6e7c7ca3787c367ef0f441a",
+    "src/verify_figures.py": "270e75775ca1e16321e6cf0fe1116985472a2dd1bf664d2c1b3d65d82396eb0e",
+    "src/verify_freeze.py": "f01013d6ae0d01a839fc3fd779964e9cfa311626416dd8248aa6fa9c4c337d58",
+    "src/verify_originals.py": "a4c7cc780362672f85bc2c96bf84c511638b6845494c2b8e8b1cf92f32fe97c4",
+    "src/verify_paper.py": "50c89bb7dcb3b2c14f971afbf7243f120efb6ef545da04633793daf1759fde03",
+    "src/verify_public_package.py": "2f6a170317d1fae7038e43d81aa1212867433604cd5ce9ab8d7a2ac28bf2fd72",
+    "src/verify_results.py": "5f019981a9746c77222fe76276942095cae7e806094d163bbe73273dee263745",
+    "src/verify_source.py": "e1d78fa1eebc66f22558e49cc3fa966805582ad3c0eb3cde613a6ed7cae8d8af",
+    "tests/test_transfer.py": "0c3d34b57e7290a8adeaa0b3f493f47d9614e639489d269cddf4a3b61f057ace"
+  },
+  "criteria": {
+    "source_and_rights": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Twelve official JC-2024 archives; 1052451 published departure rows; 4209804 selected source scalars matched by independent parser, 92152 exact geometry and 91490 grid/control checks plus 99 radius tolerance checks. Only coarse count/coordinate derivatives in a noncommercial research context under the operator policy; full source/customer records excluded."
+    },
+    "fixed_design_and_separation": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Source/schema and deterministic initial-quarter cohort rules precede model outcomes. Twenty-four dependencies frozen at 2e7f980 before held scores; validation and held coordinate groups separated. Source quality and inputs visible without blinding. Retrospective idealized complete prior-day donor availability, not verified historical-vintage or prospective validity."
+    },
+    "finite_math_and_replay": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "19 fixtures; 1673256 exact and 477012 numerical-tolerance validation/held fields independently reconstructed. Isolated replay matches 1643477 exact and 505372 tolerance fields plus 3 verification documents; all 24 frozen dependencies unchanged. All 54 validation configurations, 12 held groups, 6 months, 16 fixed displacement cases and 1000 group-resampling draws retained."
+    },
+    "presentation_and_readability": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Executive question, model-bundle result, two worse groups, idealized input availability and next evidence visible first. Three original figures inspected; 278 actual artist values, 12 map labels, 16 heatmap annotation/contrast checks and 9 hashes pass. All seven final pages inspected directly or pixel-byte identical to inspected pages; no accessibility-conformance claim."
+    },
+    "paper_source_and_numbers": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "778 independent paper checks; all 54 validation settings, 12 held groups, 6 months and 17 geographic cases displayed. Correct squared MSE units; model bundle does not isolate geography. Seven-page compile has no layout/missing-glyph warnings. Five approved manuscript files and four bounded PDF-action checks pass."
+    },
+    "privacy_and_canonical_package": {
+      "state": "PENDING",
+      "evidence": "Required scoped staged scan and canonical Git-blob identity before release. No complete ride rows, customer records, source archives, credentials or formal-publication project."
+    },
+    "exact_head_remote_release": {
+      "state": "PENDING",
+      "evidence": "Required exact-head candidate/main Linux checks, identical tested/merged tree and annotated remote tag before release accounting."
+    }
+  },
+  "status": "LOCAL_SCIENTIFIC_AND_DOCUMENT_GATES_PASS_REMOTE_RELEASE_PENDING",
+  "corrections": [
+    {
+      "defect": "Initial ingestion syntax error before analytical values",
+      "repair": "One targeted syntax repair; protocol and analysis unchanged",
+      "scientific_change": false,
+      "failed_evidence": "Private bike06-failures/initial-ingest-syntax.py"
+    },
+    {
+      "defect": "Initial coordinate-map legend overlapped",
+      "repair": "Targeted legend spacing; all plotted values unchanged and final figure inspected",
+      "scientific_change": false,
+      "failed_evidence": "Private bike06-paper/round2-initial-map-spacing"
+    },
+    {
+      "defect": "Initial manuscript MSE unit wording ambiguous",
+      "repair": "State squared departures/day units and freshly verify tables and final pages",
+      "scientific_change": false,
+      "failed_evidence": "Private bike06-paper/round3-initial-units"
+    },
+    {
+      "defect": "Initial lead wording could assign bundle difference solely to geography",
+      "repair": "Qualify first layer, figure and conclusion as model-bundle comparison; recommend a matched-setting test on a new held cohort; frozen models and results unchanged",
+      "scientific_change": false,
+      "failed_evidence": "Private bike06-paper/round3-model-bundle-scope"
+    }
+  ],
+  "budget": {
+    "rounds_used": 3,
+    "round_limit": 3,
+    "active_review_minutes_limit": 45,
+    "review_tool_calls_limit": 60,
+    "review_call_conservative_upper_count": 58,
+    "accounting": "Conservative upper bound includes mixed review/execution calls and failed attempts; not a quota or billing estimate.",
+    "elapsed_wall_minutes_including_execution": 35.79543305
+  },
+  "account_usage": "Supported shared-account usage observed; full noncredential observation retained privately.",
+  "unknowns": [
+    "Historical complete prior-day data availability",
+    "Station opening, relocation and physical-site identity",
+    "Stock, dock availability and latent demand",
+    "Isolated effect of geography versus temporal settings",
+    "Future and out-of-cohort performance and group-resampling coverage"
+  ],
+  "stop_reason": "Local acceptance criteria pass within bounded review. Perform required audit and exact-head remote release proof; no further frozen-analysis changes."
+}

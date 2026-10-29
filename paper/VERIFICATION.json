@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "independent_paper_checks": 778,
+  "validation_configurations_displayed": 54,
+  "held_groups_displayed": 12,
+  "held_months_displayed": 6,
+  "geographic_scenarios_displayed": 17,
+  "pdf_pages": 7,
+  "pdf_active_content_checks": 4,
+  "scope": "Independent table recomputation, primary row-loss and claim checks, exact approved hashes and bounded PDF actions. Rights and rendered readability reviewed separately."
+}
