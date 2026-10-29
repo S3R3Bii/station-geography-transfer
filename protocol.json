@@ -209,5 +209,7 @@
     "distance_km_absolute": "1e-8",
     "meaning": "Fixed numerical reconstruction tolerances, not source accuracy or physical-distance bounds."
   },
-  "public_scope": "Noncommercial independent study with minimal coarse derived counts/rounded station geometry and original code/results/figures; no raw ride files, ride/customer/bike IDs, rider type, demographics, exact trip timestamps, trajectories, full manuals or logos"
+  "public_scope": "Noncommercial independent study with minimal coarse derived counts/rounded station geometry and original code/results/figures; no raw ride files, ride/customer/bike IDs, rider type, demographics, exact trip timestamps, trajectories, full manuals or logos",
+  "scale_normalized_diagnostic": "Pooled WAPE=sum absolute errors/sum observed departures, undefined for zero observed total; no role in selection.",
+  "metric_arithmetic": "Point forecasts use declared floating arithmetic and exported round-trip decimal representations; count losses and group aggregation are reconstructed as exact fractions of exported decimals. RMSE square root uses the fixed metric tolerance."
 }

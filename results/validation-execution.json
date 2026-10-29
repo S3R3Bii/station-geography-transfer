@@ -1,0 +1,397 @@
+{
+  "phase": "validation",
+  "shared_feature_preparation_seconds": 0.2000311000738293,
+  "elapsed_seconds": 7.969311899971217,
+  "policies": [
+    {
+      "policy": "geo-w28-weekday-k3-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11219820007681847,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k3-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11552260001190007,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k3-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11633879994042218,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k5-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.10123410006053746,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k5-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12230020004790276,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k5-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12032520002685487,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k10-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12445639993529767,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k10-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.1352690999628976,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-weekday-k10-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.1356560999993235,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k3-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11253010004293174,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k3-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11952049995306879,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k3-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12016110005788505,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k5-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.10527139995247126,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k5-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12220850004814565,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k5-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12110390001907945,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k10-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12497080001048744,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k10-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13631259999237955,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w28-daytype-k10-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13613760005682707,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k3-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.10857010004110634,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k3-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11534200003370643,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k3-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11534479993861169,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k5-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.10319709999021143,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k5-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11946720001287758,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k5-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11973569996189326,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k10-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12509480002336204,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k10-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13437760004308075,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-weekday-k10-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13503700005821884,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k3-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11085579998325557,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k3-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11268150003161281,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k3-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11367449990939349,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.10447510005906224,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12059619999490678,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k5-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12049300002399832,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k10-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12612950010225177,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k10-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13597399997524917,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w56-daytype-k10-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13589329994283617,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k3-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11133460002020001,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k3-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11346669995691627,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k3-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11387870006728917,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k5-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11866949999239296,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k5-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11967649997677654,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k5-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.12135849997866899,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k10-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.14044500002637506,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k10-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.1353093000361696,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-weekday-k10-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13569530006498098,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k3-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.1116098000202328,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k3-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11379199998918921,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k3-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11364770005457103,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k5-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11872979998588562,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k5-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.1185079999268055,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k5-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.11878110002726316,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k10-p0",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.14027790003456175,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k10-p1",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13516599999275059,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "geo-w84-daytype-k10-p2",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.13422419992275536,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    },
+    {
+      "policy": "pooled_weekday_w84",
+      "scenario": "unshifted",
+      "prediction_rows": 2002,
+      "elapsed_seconds": 0.30307560006622225,
+      "status": "PASS_EXECUTED_CHECKS_PENDING"
+    }
+  ],
+  "prediction_rows": 110110,
+  "feature_rows": 26754,
+  "weight_rows": 8206,
+  "metric_rows": 2640,
+  "availability": "Strictly past donor indices under idealized complete prior-day counts; actual source publication vintages and live feasibility unverified."
+}
